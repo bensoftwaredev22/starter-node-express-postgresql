@@ -7,3 +7,5 @@ const config = require("../../knexfile")[env]; //requires the database configura
 const knex = require("knex")(config); //initializes a Knex instance by calling the knex module, passing in config as an argument.
 
 module.exports = knex; //  exports the Knex instance so that other files can require it.
+
+
